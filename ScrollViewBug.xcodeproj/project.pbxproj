@@ -22,6 +22,7 @@
 		F89EF96B1D52E038009F7771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F89EF96E1D52E038009F7771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F89EF9701D52E038009F7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89EF9761D52E097009F7771 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				F89EF96B1D52E038009F7771 /* Assets.xcassets */,
 				F89EF96D1D52E038009F7771 /* LaunchScreen.storyboard */,
 				F89EF9701D52E038009F7771 /* Info.plist */,
+				F89EF9761D52E097009F7771 /* Montserrat-Regular.otf */,
 			);
 			path = ScrollViewBug;
 			sourceTree = "<group>";
