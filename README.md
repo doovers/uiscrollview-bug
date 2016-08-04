@@ -1,12 +1,13 @@
 # uiscrollview-bug
 Demonstration of strange uiscrollview behaviour
 
-# Steps to reproduce
+# Steps to reproduce (iPhone 6/6s)
 
-1. Remove hack included in the ViewController adjustForKeyboard method
-1. Manually select each field one at a time from top to bottom (no need to enter text)
-2. In the last field press done button
-3. Note that signup button does not fire action
+1. Comment out fix in the ViewController adjustForKeyboard method (line 69)
+2. Select 'First Name' text field by tapping on it making sure that it is in focus
+3. Scroll view down until 'Device' field is visible and tap on it again making sure that it is in focus
+4. Dismiss the keyboard by pressing the done button
+5. Note that signup button does not fire action
 
 # Note
 
