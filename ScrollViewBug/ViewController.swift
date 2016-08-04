@@ -87,24 +87,17 @@ extension ViewController: UITextFieldDelegate {
         switch textField {
         case firstName:
             lastName.becomeFirstResponder()
-            break
         case lastName:
             email.becomeFirstResponder()
-            break
         case email:
             password.becomeFirstResponder()
-            break
         case password:
             confirmPassword.becomeFirstResponder()
-            break
         case confirmPassword:
             device.becomeFirstResponder()
-            break
         case device:
             device.resignFirstResponder()
-            break
-        default:
-            break
+        default: break
         }
         return true
     }
